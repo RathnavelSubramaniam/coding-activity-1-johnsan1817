@@ -10,5 +10,8 @@ app.get ('/data',(req,res)=>{
 res.send("Hello World with Data!")
 })
 
+app.listen(port,()=>{
+    console.log('Example app listening on port ${port}')
+})
 
 
